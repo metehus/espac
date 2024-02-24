@@ -35,6 +35,6 @@ extern "C" void app_main(void) {
 
     xTaskCreatePinnedToCore(measure, "sensor_task", configMINIMAL_STACK_SIZE * 8, NULL, 2, NULL, 0);
 
-//    xTaskCreatePinnedToCore(gui_task, "gui", 4096*2, NULL, 0, NULL, 1);
+    xTaskCreatePinnedToCore(gui_task, "gui", 4096*2, NULL, 0, NULL, 1);
 
 }
