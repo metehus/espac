@@ -7,3 +7,6 @@
 [submodule "firmware/components/gc9a01"]
 	path = firmware/components/gc9a01
 	url = https://github.com/liyanboy74/gc9a01-esp-idf.git
+[submodule "firmware/components/esp-idf-lib"]
+	path = firmware/components/esp-idf-lib
+	url = https://github.com/UncleRus/esp-idf-lib.git
