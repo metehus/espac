@@ -1,15 +1,123 @@
-(module TEMT6000 (layer F.Cu) (tedit 4C692EAA)
-  (fp_text reference TEMT6000 (at 0 -1.80086) (layer F.SilkS)
-    (effects (font (size 0.29972 0.29972) (thickness 0.0635)))
-  )
-  (fp_text value VAL** (at -1.99898 -3.79984) (layer F.SilkS)
-    (effects (font (size 0.29972 0.29972) (thickness 0.0635)))
-  )
-  (fp_line (start 1.19888 1.00076) (end -1.19888 1.00076) (layer F.SilkS) (width 0.381))
-  (fp_line (start -1.19888 1.00076) (end -1.19888 -3.40106) (layer F.SilkS) (width 0.381))
-  (fp_line (start -1.19888 -3.40106) (end 1.19888 -3.40106) (layer F.SilkS) (width 0.381))
-  (fp_line (start 1.19888 -3.40106) (end 1.19888 1.00076) (layer F.SilkS) (width 0.381))
-  (pad 3 smd rect (at 0 -2.99974) (size 1.00076 1.09982) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -0.55118 0.55118) (size 0.8001 1.09982) (layers F.Cu F.Paste F.Mask))
-  (pad "" smd rect (at 0.55118 0.55118) (size 0.8001 1.09982) (layers F.Cu F.Paste F.Mask))
+(footprint "TEMT6000"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TEMT6000"
+		(at 0 -1.80086 0)
+		(layer "F.SilkS")
+		(uuid "8ea1073a-835f-4357-9027-bfc9cf94747f")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.0635)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at -1.99898 -3.79984 0)
+		(layer "F.SilkS")
+		(uuid "19543e21-5ea6-44a7-81d5-4315b48e8fbf")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.0635)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1911a8d-5d05-42da-9c86-bfb3f349b61e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ab847b2-4163-445d-9f71-fa819c17f7c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f5adebf-9785-4c9b-917e-3987ffc11c0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.19888 -3.40106)
+		(end 1.19888 -3.40106)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e60b253-c01e-407e-a6e3-7215377b9bbe")
+	)
+	(fp_line
+		(start -1.19888 1.00076)
+		(end -1.19888 -3.40106)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4d0f904-b905-4be0-98f6-45ffd8727095")
+	)
+	(fp_line
+		(start 1.19888 -3.40106)
+		(end 1.19888 1.00076)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5429a2ec-b54d-458e-9910-9b8183390e91")
+	)
+	(fp_line
+		(start 1.19888 1.00076)
+		(end -1.19888 1.00076)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08a22586-96ff-4c8d-9b34-b96191635267")
+	)
+	(pad "" smd rect
+		(at 0.55118 0.55118)
+		(size 0.8001 1.09982)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b77ee095-cf33-45a4-bbf7-b099b3f5fe17")
+	)
+	(pad "1" smd rect
+		(at 0 -2.99974)
+		(size 1.00076 1.09982)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bc95e44d-1b3b-4636-be50-6a3193d1cfc2")
+	)
+	(pad "2" smd rect
+		(at -0.55118 0.55118)
+		(size 0.8001 1.09982)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fa9ac2e6-61bf-4391-b787-98ead3a66ad5")
+	)
 )
