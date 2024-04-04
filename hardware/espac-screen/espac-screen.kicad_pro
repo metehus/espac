@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -30,7 +30,7 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
@@ -41,11 +41,11 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -135,8 +135,6 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -441,7 +439,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -456,7 +454,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "espac.kicad_pro",
+    "filename": "espac-screen.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -494,9 +492,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "espac.step",
-      "svg": "../../../../Downloads/pst-1/",
-      "vrml": "espac.wrl"
+      "step": "espac-screen.step",
+      "svg": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -551,25 +549,13 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Descrição",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referência"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -612,7 +598,7 @@
   },
   "sheets": [
     [
-      "907a481e-89cb-4820-8d29-868e1dd435cd",
+      "48046683-dc46-48bd-8d64-4fca281688ea",
       "Raiz"
     ]
   ],
