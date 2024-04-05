@@ -491,7 +491,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../Desktop/pcb-export/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "espac.step",
