@@ -1,4 +1,4 @@
-cmake-build-debug-esp-idf
-cmake-build-debug-mingw
-build
-managed_components
+.pio
+CMakeFiles/
+target/
+.embuild/
