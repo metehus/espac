@@ -12,33 +12,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c639a7c-6fbf-40c2-9ffc-dc565c77a61d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/peripheral-bindings/build.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/peripheral-bindings/src/bindings.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/firmware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/firmware.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/esp-idf-lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/gc9a01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/lvgl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/display.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/display.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/idf_component.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest_hello_world.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdkconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdkconfig.ci" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdkconfig.old" beforeDir="false" />
+    <list default="true" id="1c639a7c-6fbf-40c2-9ffc-dc565c77a61d" name="Changes" comment="chore: rust rebirth">
+      <change afterPath="$PROJECT_DIR$/lib/peripheral-bindings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +31,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lib/peripheral-bindings" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="acuwovjp" />
@@ -68,12 +44,14 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2f1Yzktqi4BGMfOf9nM6dt6rfDH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -81,7 +59,7 @@
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "<unknown>",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +68,7 @@
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,13 +79,14 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="DFA" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17832032" />
-      <window_info id="Commit" order="1" weight="0.17832032" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17832032" />
+      <window_info active="true" id="Commit" order="1" visible="true" weight="0.17832032" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" weight="0.32994187" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32994187" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
@@ -138,12 +118,28 @@
       <workItem from="1712970319713" duration="598000" />
       <workItem from="1713650649888" duration="598000" />
       <workItem from="1713660176816" duration="80000" />
-      <workItem from="1713668960102" duration="4129000" />
+      <workItem from="1713668960102" duration="4458000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: rust rebirth">
+      <option name="closed" value="true" />
+      <created>1713674325486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713674325486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/lib/peripheral-bindings" />
+    </ignored-roots>
+    <MESSAGE value="chore: rust rebirth" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: rust rebirth" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
