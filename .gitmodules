@@ -1,0 +1,3 @@
+[submodule "firmware/include/LovyanGFX"]
+	path = firmware/include/LovyanGFX
+	url = https://github.com/lovyan03/LovyanGFX.git
