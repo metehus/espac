@@ -1,0 +1,12 @@
+## IDF Component Manager Manifest File
+dependencies:
+  espressif/button: "*"
+  espressif/knob: "^0.1.5"
+  espressif/esp_lcd_gc9a01: "*"
+  lvgl/lvgl: "^9.2.0"
+  espressif/esp_lvgl_port: "^2.3.2"
+  sensorlib:
+    git: https://github.com/lewisxhe/SensorLib.git
+  ## Required IDF version
+  idf:
+    version: ">=4.1.0"
