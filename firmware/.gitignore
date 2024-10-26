@@ -1,4 +1,2 @@
-.pio
-CMakeFiles/
-target/
-.embuild/
+managed_components
+build

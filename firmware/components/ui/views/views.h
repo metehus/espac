@@ -1,0 +1,12 @@
+#ifndef ESPAC_FIRMWARE_VIEWS_H
+#define ESPAC_FIRMWARE_VIEWS_H
+
+// Views keys
+enum ViewKeyEnum {
+    THERMOSTAT_VIEW,
+    THERMOSTAT_OVERLAY_MENU,
+    SETTINGS_VIEW,
+    MODE_MENU_VIEW,
+};
+
+#endif //ESPAC_FIRMWARE_VIEWS_H

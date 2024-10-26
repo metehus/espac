@@ -156,6 +156,7 @@
       <config projectName="espac-firmware" targetName="__idf_nvs_flash" />
       <config projectName="espac-firmware" targetName="__idf_esp_driver_sdmmc" />
       <config projectName="espac-firmware" targetName="__idf_esp_app_format" />
+      <config projectName="espac-firmware" targetName="__idf_espressif__led_strip" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -164,47 +165,46 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad8b505-a4b1-41a0-b9b2-4fbd94f98cae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/ui/assets/fonts/fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/assets/fonts/poppins_semibold_68.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/assets/images/freeze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/assets/images/images.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/bridge.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/bridge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/events.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/iui_main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/ui_main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/views/thermostat_view.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/views/thermostat_view.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/drivers/bridge_driver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/drivers/bridge_driver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/drivers/display/driver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/drivers/display/driver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/pins.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/pins.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cargo/config.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/firmware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/firmware.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="aad8b505-a4b1-41a0-b9b2-4fbd94f98cae" name="Changes" comment="feat: firmware setup">
+      <change afterPath="$PROJECT_DIR$/components/ui/enums.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/main_event_bus.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/main_event_bus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/menu_view_base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/menu_view_base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/view_base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/view_base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/view_orchestrator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/structure/view_orchestrator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/views/mode_menu_view.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/views/mode_menu_view.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/views/settings_menu_view.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/views/settings_menu_view.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/views/thermostat_overlay_menu_view.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/views/thermostat_overlay_menu_view.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/views/views.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/peripheral-bindings/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/peripheral-bindings/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/peripheral-bindings/build.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/peripheral-bindings/src/bindings.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/peripheral-bindings/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.cargo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.git.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.patch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdkconfig.debug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hardware/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../hardware/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/assets/images/freeze.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/assets/images/freeze.png" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/assets/images/freeze_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/assets/images/images.h" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/assets/images/generated/images.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/bridge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/bridge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/bridge.h" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/bridge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/events.h" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/events.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/iui_main.h" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/iui_main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/ui_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/ui_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/ui_main.h" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/ui_main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/views/thermostat_view.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/views/thermostat_view.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/views/thermostat_view.h" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/views/thermostat_view.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/views/view.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/structure/view.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/views/view.h" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/structure/view.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/drivers/bridge_driver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main/drivers/bridge_driver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/idf_component.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main/idf_component.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pins.h" beforeDir="false" afterPath="$PROJECT_DIR$/main/pins.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hardware/espac-backups/espac-2024-01-18_205430.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hardware/espac-backups/espac-2024-01-19_215752.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hardware/espac-backups/espac-2024-02-25_235316.zip" beforeDir="false" />
@@ -260,29 +260,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake Application.espac-firmware.elf.executor": "Run",
-    "CMake Application.flash.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/methi/Documents/Projetos/espac/firmware/components/ui/assets/fonts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "CMakeSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.espac-firmware.elf.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.flash.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/methi/Downloads/clion-swift-231.9423.4.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\methi\Documents\Projetos\espac\firmware\components\ui\assets\fonts" />
@@ -576,6 +576,11 @@
       </method>
     </configuration>
     <configuration name="__idf_espressif__knob" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="espac-firmware" TARGET_NAME="__idf_espressif__knob" CONFIG_NAME="Debug (idf)">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="__idf_espressif__led_strip" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="espac-firmware" TARGET_NAME="__idf_espressif__led_strip" CONFIG_NAME="Debug (idf)">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1006,36 +1011,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.lvgl_port_lib" />
-      <item itemvalue="CMake Application.bootloader" />
-      <item itemvalue="CMake Application.efuse-common-table" />
-      <item itemvalue="CMake Application.efuse-custom-table" />
-      <item itemvalue="CMake Application.efuse_test_table" />
-      <item itemvalue="CMake Application.show-efuse-table" />
-      <item itemvalue="CMake Application.memory.ld" />
-      <item itemvalue="CMake Application.sections.ld.in" />
-      <item itemvalue="CMake Application.app" />
-      <item itemvalue="CMake Application.app-flash" />
-      <item itemvalue="CMake Application.bootloader-flash" />
-      <item itemvalue="CMake Application.erase_flash" />
-      <item itemvalue="CMake Application.flash" />
-      <item itemvalue="CMake Application.gen_project_binary" />
-      <item itemvalue="CMake Application.merge-bin" />
-      <item itemvalue="CMake Application.monitor" />
-      <item itemvalue="CMake Application.partition-table-flash" />
-      <item itemvalue="CMake Application.uf2" />
-      <item itemvalue="CMake Application.uf2-app" />
-      <item itemvalue="CMake Application.custom_bundle" />
-      <item itemvalue="CMake Application.apidoc" />
-      <item itemvalue="CMake Application.everest" />
-      <item itemvalue="CMake Application.p256m" />
-      <item itemvalue="CMake Application.lib" />
-      <item itemvalue="CMake Application.mbedcrypto" />
-      <item itemvalue="CMake Application.mbedtls" />
-      <item itemvalue="CMake Application.mbedx509" />
-      <item itemvalue="CMake Application.partition-table" />
-      <item itemvalue="CMake Application.partition_table_bin" />
-      <item itemvalue="CMake Application.app_check_size" />
       <item itemvalue="CMake Application.__idf_app_trace" />
       <item itemvalue="CMake Application.__idf_app_update" />
       <item itemvalue="CMake Application.__idf_bootloader_support" />
@@ -1093,6 +1068,7 @@
       <item itemvalue="CMake Application.__idf_espressif__button" />
       <item itemvalue="CMake Application.__idf_espressif__esp_lcd_gc9a01" />
       <item itemvalue="CMake Application.__idf_espressif__knob" />
+      <item itemvalue="CMake Application.__idf_espressif__led_strip" />
       <item itemvalue="CMake Application.__idf_fatfs" />
       <item itemvalue="CMake Application.__idf_freertos" />
       <item itemvalue="CMake Application.__idf_hal" />
@@ -1127,27 +1103,57 @@
       <item itemvalue="CMake Application.__idf_wifi_provisioning" />
       <item itemvalue="CMake Application.__idf_wpa_supplicant" />
       <item itemvalue="CMake Application.__idf_xtensa" />
-      <item itemvalue="CMake Application.dfu" />
-      <item itemvalue="CMake Application.dfu-flash" />
-      <item itemvalue="CMake Application.dfu-list" />
-      <item itemvalue="CMake Application.confserver" />
-      <item itemvalue="CMake Application.menuconfig" />
-      <item itemvalue="CMake Application.save-defconfig" />
       <item itemvalue="CMake Application.__ldgen_output_sections.ld" />
       <item itemvalue="CMake Application._project_elf_src" />
-      <item itemvalue="CMake Application.espac-firmware.elf" />
-      <item itemvalue="CMake Application.size" />
-      <item itemvalue="CMake Application.size-components" />
-      <item itemvalue="CMake Application.size-files" />
+      <item itemvalue="CMake Application.apidoc" />
+      <item itemvalue="CMake Application.app-flash" />
+      <item itemvalue="CMake Application.app" />
+      <item itemvalue="CMake Application.app_check_size" />
+      <item itemvalue="CMake Application.bootloader-flash" />
+      <item itemvalue="CMake Application.bootloader" />
+      <item itemvalue="CMake Application.confserver" />
+      <item itemvalue="CMake Application.custom_bundle" />
+      <item itemvalue="CMake Application.dfu-flash" />
+      <item itemvalue="CMake Application.dfu-list" />
+      <item itemvalue="CMake Application.dfu" />
+      <item itemvalue="CMake Application.efuse-common-table" />
+      <item itemvalue="CMake Application.efuse-custom-table" />
       <item itemvalue="CMake Application.efuse_common_table" />
       <item itemvalue="CMake Application.efuse_custom_table" />
+      <item itemvalue="CMake Application.efuse_test_table" />
       <item itemvalue="CMake Application.encrypted-app-flash" />
       <item itemvalue="CMake Application.encrypted-bootloader-flash" />
       <item itemvalue="CMake Application.encrypted-flash" />
       <item itemvalue="CMake Application.encrypted-partition-table-flash" />
-      <item itemvalue="CMake Application.partition_table" />
+      <item itemvalue="CMake Application.erase_flash" />
+      <item itemvalue="CMake Application.espac-firmware.elf" />
+      <item itemvalue="CMake Application.everest" />
+      <item itemvalue="CMake Application.flash" />
+      <item itemvalue="CMake Application.gen_project_binary" />
+      <item itemvalue="CMake Application.lib" />
+      <item itemvalue="CMake Application.lvgl_port_lib" />
+      <item itemvalue="CMake Application.mbedcrypto" />
+      <item itemvalue="CMake Application.mbedtls" />
+      <item itemvalue="CMake Application.mbedx509" />
+      <item itemvalue="CMake Application.memory.ld" />
+      <item itemvalue="CMake Application.menuconfig" />
+      <item itemvalue="CMake Application.merge-bin" />
+      <item itemvalue="CMake Application.monitor" />
+      <item itemvalue="CMake Application.p256m" />
+      <item itemvalue="CMake Application.partition-table-flash" />
+      <item itemvalue="CMake Application.partition-table" />
       <item itemvalue="CMake Application.partition_table-flash" />
+      <item itemvalue="CMake Application.partition_table" />
+      <item itemvalue="CMake Application.partition_table_bin" />
+      <item itemvalue="CMake Application.save-defconfig" />
+      <item itemvalue="CMake Application.sections.ld.in" />
+      <item itemvalue="CMake Application.show-efuse-table" />
       <item itemvalue="CMake Application.show_efuse_table" />
+      <item itemvalue="CMake Application.size-components" />
+      <item itemvalue="CMake Application.size-files" />
+      <item itemvalue="CMake Application.size" />
+      <item itemvalue="CMake Application.uf2-app" />
+      <item itemvalue="CMake Application.uf2" />
     </list>
   </component>
   <component name="RustProjectSettings">
@@ -1167,8 +1173,25 @@
       <workItem from="1727038507051" duration="10817000" />
       <workItem from="1727827251884" duration="12443000" />
       <workItem from="1727891554653" duration="604000" />
-      <workItem from="1727907692205" duration="3782000" />
+      <workItem from="1727907692205" duration="5505000" />
+      <workItem from="1727999387330" duration="2000" />
+      <workItem from="1728083812616" duration="2000" />
+      <workItem from="1728165746476" duration="5000" />
+      <workItem from="1728267659121" duration="3000" />
+      <workItem from="1728845996926" duration="12486000" />
+      <workItem from="1728952508395" duration="5525000" />
+      <workItem from="1729367466569" duration="343000" />
+      <workItem from="1729912813267" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: firmware setup">
+      <option name="closed" value="true" />
+      <created>1727920609305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727920609305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1178,5 +1201,9 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: firmware setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: firmware setup" />
   </component>
 </project>

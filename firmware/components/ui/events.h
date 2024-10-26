@@ -6,4 +6,8 @@ enum RotaryEventEnum {
     COUNTER_CLOCKWISE
 };
 
+enum ButtonEventEnum {
+    SINGLE_CLICK
+};
+
 #endif //ESPAC_FIRMWARE_EVENTS_H

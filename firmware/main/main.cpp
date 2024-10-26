@@ -6,6 +6,7 @@
 extern "C" void app_main(void){
     printf("OII\n");
     ESP_LOGI("Main", "Starting espac firware!");
+    ESP_LOGV("Main", "oi");
 
     auto ui = new UiMain();
 
